@@ -4,7 +4,10 @@ Here, I would record some tools for genome assembly, annotation, and comparative
 
 ## Genome assembly
 ### Short read sequencing
-- Trinity - Maximum k-mer: 21
+- Trinity (K-mer ≤ 21)
+- SPAdes (Metagenome)
+- SOAPdenovo (BGI)
+- Velvet (?)
 
 ### Long read sequencing
 
