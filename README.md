@@ -24,7 +24,7 @@ $ /bin/spades.py --rna -k 21,27,33,55,77,99,127 -1 R1.fastq -2 R2.fastq -o spade
 - Velvet (de Bruijn)
 ```
 $ velveth output 31,37,2 -shortPaired -fasta -separate left.fa right.fa
-# output based on velveth (First step)
+# output/ based on velveth output
 $ velvetg output/ -min_contig_lgth 500 \
   -exp_cov auto -cov_cutoff auto \
   -clean yes -scaffolding yes -amos_file yes
@@ -41,8 +41,14 @@ $ mecat.pl assemble ecoli_config_file.txt
 # Run Pillon for local correction
 $ java -jar pilon-1.23.jar --genome reference_genome.fasta --bam mecat2_mapped_Illumina_sorted.bam --fix all --output pillon_corrected
 ```
+- falcon (PacBio)
 
 - NECAT (Nanopore)
+```
+
+```
+- Shasta (Nanopore)
+
 ## Genome annotation
 
 
