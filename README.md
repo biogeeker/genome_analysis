@@ -31,7 +31,8 @@ $ velvetg output/ -min_contig_lgth 500 \
 ```
 
 ### Long read sequencing
-- MECAT2 (PacBio*)
+Some tools for PacBio long reads assembly:
+- MECAT2* (PacBio)
 ```
 $ mecat.pl config ecoli_config_file.txt
 $ vi ecoli_config_file.txt
@@ -44,11 +45,11 @@ $ java -jar pilon-1.23.jar --genome reference_genome.fasta --bam mecat2_mapped_I
 - falcon (PacBio)
 
 Some tools for Nanopore long reads assembly:
-- NECAT (Nanopore*)
+- NECAT* (Nanopore)
 - Shasta (Nanopore)
 
-Some tools were used for sequencing errors correction:
-- Pilon (polish using short reads)
+Some tools were used for sequencing errors correction after assembly:
+- Pilon* (polish using short reads)
 - Racon (polish using long reads)
 - NextPolish (polish using short reads)
 - Medaka (Nanopore polish using long reads after Racon polish at least once)
