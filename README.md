@@ -1,6 +1,6 @@
 # Genome analysis tools
 
-Here, I would record some tools for genome assembly, annotation, and comparative genomics analysis when I used during my projects. Also, some useful scripts would be included in this part.
+Here, I would record some tools for genome assembly, annotation, and comparative genomics analysis when I used during my projects. Also, some useful scripts would be added into this chapter.
 
 ## Genome assembly
 ### Short read sequencing
@@ -32,7 +32,7 @@ $ velvetg output/ -min_contig_lgth 500 \
 
 ### Long read sequencing
 Some tools for PacBio long reads assembly:
-- MECAT2* (PacBio)
+- **MECAT2 (PacBio)**
 ```
 $ mecat.pl config ecoli_config_file.txt
 $ vi ecoli_config_file.txt
@@ -45,7 +45,7 @@ $ java -jar pilon-1.23.jar --genome reference_genome.fasta --bam mecat2_mapped_I
 - falcon (PacBio)
 
 Some tools for Nanopore long reads assembly:
-- NECAT* (Nanopore)
+- **NECAT (Nanopore)**
 - Shasta (Nanopore)
 
 Some tools were used for sequencing errors correction after assembly:
