@@ -3,7 +3,7 @@
 Here, I would record some tools for genome assembly, annotation, and comparative genomics analysis when I used/collected during my own projects. Also, some useful scripts would be addded into this chapter later.
 
 ## Genome assembly
-### Short read sequencing
+Some tools for short reads assembly:
 - Trinity (k-mer ≤ 32)
 ```
 # Trinity default k-mer 25, maximum 32
@@ -30,7 +30,6 @@ $ velvetg output/ -min_contig_lgth 500 \
   -clean yes -scaffolding yes -amos_file yes
 ```
 
-### Long read sequencing
 Some tools for PacBio long reads assembly:
 - **MECAT2** (an ultra-fast and accurate Mapping, Error Correction and de novo Assembly Tools for single molecula sequencing (SMRT) reads)*
 ```
