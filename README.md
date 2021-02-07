@@ -58,7 +58,9 @@ Some tools were used for sequencing errors correction after assembly:
 - Medaka (Nanopore polish using long reads after Racon polish at least once)
 
 Some tools that assisted an assembly of heterozygous/polymorphic genomes (remove redundant sequence):
-- 
+- redundans (program takes as input assembled contigs, sequencing libraries and/or reference sequence and returns scaffolded homozygous genome assembly)
+- purge_haplotigs (pipeline to help with curating heterozygous diploid genome assemblies (for instance when assembling using FALCON or FALCON-unzip))
+- purge_dups ()
 - HaploMerger2 (untangle allelic relations between haplotype sequences in a highly-polymorphic diploid assembly, and then reconstruct and output two separated haploid sub-assemblies)
 
 ## Genome annotation
