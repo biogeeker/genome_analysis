@@ -170,5 +170,4 @@ $ gmap -t 20 -d ps2019 -f gff3_gene cds.fa > cds_gene.gff3
 ## Reference
 [1]. [xuzhougeng](https://github.com/xuzhougeng) / **[Genomic_tools](https://github.com/xuzhougeng/Genomic_tools)**
 
-
 --- ***End*** ---
