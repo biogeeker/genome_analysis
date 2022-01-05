@@ -161,6 +161,7 @@ $ gmap -t 20 -d ps2019 -f gff3_gene cds.fa > cds_gene.gff3
 
 - **[JCVI](https://github.com/tanghaibao/jcvi)** (Python library to facilitate genome assembly, annotation, and comparative genomics)*
 - [wgd](https://github.com/arzwa/wgd) (Python package and CLI for whole-genome duplication related analyses)
+- wgdi
 
 ## Population structure
 *   [STRUTURE]() (Unknown)
