@@ -30,7 +30,7 @@ $ velvetg output/ -min_contig_lgth 500 \
   -clean yes -scaffolding yes -amos_file yes
 ```
 
-Some tools for PacBio long reads assembly:
+Tools for PacBio long reads assembly:
 - **MECAT2** (an ultra-fast and accurate Mapping, Error Correction and de novo Assembly Tools for single molecula sequencing (SMRT) reads)*
 ```
 $ mecat.pl config ecoli_config_file.txt
@@ -42,8 +42,10 @@ $ mecat.pl assemble ecoli_config_file.txt
 $ java -jar pilon-1.23.jar --genome reference_genome.fasta --bam mecat2_mapped_Illumina_sorted.bam --fix all --output pillon_corrected
 ```
 - **FALCON** (PacBio Assembly Tool Suite: Reads in ⇨ Assembly out )*
+- **Canu** (no correction step for PacBio Hifi reads)
 
-Some tools for Nanopore long reads assembly:
+
+Tools for Nanopore long reads assembly:
 - **NECAT** (NECAT is an error correction and de-novo assembly tool for Nanopore long noisy reads)*
 ```
 $ necat.pl config ecoli_config.txt
